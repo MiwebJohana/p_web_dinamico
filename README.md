@@ -1,2 +1,2 @@
-# p_web_dinamico
+# PortfolioDinamico
 Pasaje de mi front end estatico a angular
