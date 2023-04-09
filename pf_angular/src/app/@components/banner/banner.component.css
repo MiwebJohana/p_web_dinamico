@@ -1,0 +1,16 @@
+/*INICIO BANNER*/
+.fondo {
+    background-color: #dcdcdc;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    filter: brightness(0.4);
+}
+
+/*FIN BANNER*/

@@ -1,0 +1,66 @@
+ <!--Inicio de footer-->
+ <footer>
+    <div class="footer">
+      <em>
+        <h5 style="text-align: center;">Johana</h5>
+      </em>
+      <em>
+        <h6 style="text-align: center;">Contacto: (343)-154470527</h6>
+      </em>
+
+      <!-- Button trigger modal modificar-->
+      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalmodificarfooter">
+        <i class="fa-solid fa-pencil"></i>
+
+        <!-- Button trigger modal eliminar -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modaleliminarfooter">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+
+        <!-- Modal eliminar footer-->
+        <div class="modal fade" id="modaleliminarfooter" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminar contenido</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  ¿Estas segur@ de eliminar el contenido?
+                </label>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Guardar cambios</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal modificar contenido footer -->
+        <div class="modal fade" id="modalmodificarfooter" ata-bs-backdrop="static" data-bs-keyboard="false"
+          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalmodificarfooter">Edición contenido footer</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Editar contenido</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Guardar cambios</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+  <!--Fin de footer-->

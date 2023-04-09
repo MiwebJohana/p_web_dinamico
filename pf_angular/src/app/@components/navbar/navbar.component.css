@@ -1,0 +1,24 @@
+/*INICIO NAVBAR*/
+.bg-navbar {
+    background-color:#ffb69d;
+
+}
+
+.fa-brands:hover {
+    color: red;
+}
+
+.fa-solid:hover {
+    color: red;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-item {
+    align-items: flex-end;
+    width: 50px;
+}
+
+/*FIN NAVBAR*/
