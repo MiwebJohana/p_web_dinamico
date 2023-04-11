@@ -15,10 +15,12 @@ import { ProgressSkillsModule } from './@components/progress-skills/progress-ski
 import { ProyectosModule } from './@components/proyectos/proyectos.module';
 import { FooterModule } from './@components/footer/footer.module';
 import { LoginModule } from './modals/login/login.module';
+import { EliminarComponent } from './modals/eliminar/eliminar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EliminarComponent
   ],
   imports: [
     BrowserModule,
