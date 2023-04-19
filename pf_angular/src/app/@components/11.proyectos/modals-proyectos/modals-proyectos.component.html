@@ -1,0 +1,55 @@
+ <!-- Button trigger modal modificar-->
+ <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalmodificarproyecto">
+    <i class="fa-solid fa-pencil"></i>
+
+    <!-- Button trigger modal eliminar-->
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modaleliminarproyecto">
+      <i class="fa-solid fa-trash"></i>
+    </button>
+
+
+    <!-- Modal eliminar proyecto-->
+    <div class="modal fade" id="modaleliminarproyecto" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminar contenido</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              ¿Estas segur@ de eliminar el contenido?
+            </label>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Guardar cambios</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal modificar proyecto-->
+    <div class="modal fade" id="modalmodificarproyecto" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Edición Proyectos</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="formFileSm" class="form-label">Agregar nueva imagen</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Editar contenido</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Guardar cambios</button>
+          </div>
+        </div>
+      </div>
+    </div>

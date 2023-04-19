@@ -1,0 +1,48 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalmodificarfotoperfil">
+    <i class="fa-solid fa-pencil"></i>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modaleliminarfotoperfil">
+      <i class="fa-solid fa-trash"></i>
+    </button>
+  
+    <!-- Modal eliminar foto perfil-->
+    <div class="modal fade" id="modaleliminarfotoperfil" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminar foto/imagen</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              ¿Estas segur@ de eliminar la foto/imagen?
+            </label>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Guardar cambios</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Modal modificar foto de perfil-->
+    <div class="modal fade" id="modalmodificarfotoperfil" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Edición foto/imagen</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
