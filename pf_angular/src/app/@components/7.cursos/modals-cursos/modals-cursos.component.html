@@ -1,51 +1,56 @@
-  <!-- Button trigger modal modificar-->
-  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalmodificarcurso">
-    <i class="fa-solid fa-pencil"></i>
+<!-- Button trigger modal modificar-->
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalmodificarcurso">
+  <i class="fa-solid fa-pencil"></i>
+</button>
 
-    <!-- Button trigger modal eliminar-->
-    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modaleliminarcurso">
-      <i class="fa-solid fa-trash"></i>
-    </button>
-    <!-- Modal eliminar curso-->
-    <div class="modal fade" id="modaleliminarcurso" tabindex="-1" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminar contenido</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              ¿Estas segur@ de eliminar el contenido?
-            </label>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Guardar cambios</button>
-          </div>
-        </div>
+<!-- Button trigger modal eliminar-->
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modaleliminarcurso">
+  <i class="fa-solid fa-trash"></i>
+</button>
+<!-- Modal eliminar curso-->
+<div class="modal fade" id="modaleliminarcurso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Eliminar contenido</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          ¿Estas segur@ de eliminar el contenido?
+        </label>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Guardar cambios</button>
       </div>
     </div>
-    <!-- Modal modificar curso -->
-    <div class="modal fade" id="modalmodificarcurso" ata-bs-backdrop="static" data-bs-keyboard="false"
-      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="modalmodificareducacion">Edición curso</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Editar contenido</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Guardar cambios</button>
-          </div>
+  </div>
+</div>
+<!-- Modal modificar curso -->
+<div class="modal fade" id="modalmodificarcurso" ata-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalmodificareducacion">Edición curso</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <input class="form-control" type="text" value="Editar nombre del curso..."
+            aria-label="readonly input example"><br>
+          <input class="form-control" type="text" value="Editar Institución..." aria-label="readonly input example"><br>
+          <input class="form-control" type="text" value="Editar tema..." aria-label="readonly input example">
+          <input class="form-control" type="text" value="Editar tema..." aria-label="readonly input example">
+          <input class="form-control" type="text" value="Editar tema..." aria-label="readonly input example">
+          <input class="form-control" type="text" value="Editar tema..." aria-label="readonly input example"><br>
+          <input class="form-control" type="text" value="Editar año inicio/fin..." aria-label="readonly input example">
         </div>
       </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Guardar cambios</button>
+      </div>
     </div>
-
+  </div>
+</div>
