@@ -14,6 +14,7 @@ import { FormacionProfesionalModule } from './@components/9.formacion-profesiona
 import { ProgressSkillsModule } from './@components/10.progress-skills/progress-skills.module';
 import { ProyectosModule } from './@components/11.proyectos/proyectos.module';
 import { FooterModule } from './@components/12.footer/footer.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -35,6 +36,7 @@ import { FooterModule } from './@components/12.footer/footer.module';
     ProgressSkillsModule,
     ProyectosModule,
     FooterModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
