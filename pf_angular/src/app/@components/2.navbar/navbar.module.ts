@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar.component';
-import { LoginModule } from './login/login.module';
 import { ModalsNavbarModule } from './modals-navbar/modals-navbar.module';
+import { IniciarSesionModule } from '../iniciar-sesion/iniciar-sesion.module';
 
 
 
@@ -14,8 +14,7 @@ import { ModalsNavbarModule } from './modals-navbar/modals-navbar.module';
     exports: [NavbarComponent],
     imports: [
         CommonModule,
-        LoginModule,
-        ModalsNavbarModule,
-    ]
+        ModalsNavbarModule
+    ],
 })
 export class NavbarModule { }

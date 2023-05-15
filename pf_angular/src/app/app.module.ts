@@ -15,12 +15,17 @@ import { ProgressSkillsModule } from './@components/10.progress-skills/progress-
 import { ProyectosModule } from './@components/11.proyectos/proyectos.module';
 import { FooterModule } from './@components/12.footer/footer.module';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PortfolioComponent } from './@components/portfolio/portfolio.component';
+import { IniciarSesionComponent } from './@components/iniciar-sesion/iniciar-sesion.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    IniciarSesionComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +42,9 @@ import { HttpClientModule } from '@angular/common/http';
     ProyectosModule,
     FooterModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
